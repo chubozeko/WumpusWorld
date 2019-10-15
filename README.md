@@ -11,3 +11,6 @@ Project for the "Artificial Intelligence (CMPE411)" course during my studies.
 - Implementing an Video Game AI agent
 - Creating an AI Knowledge Base
 - Designing video game graphics and UI
+
+## Live Demo of Game with AI
+https://chubozeko.github.io/WumpusWorld/
