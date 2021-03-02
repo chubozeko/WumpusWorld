@@ -23,7 +23,7 @@ function preload(){
 
 function setup() {
   createCanvas(size, size);
-  frameRate(5);
+  frameRate(4);
   angleMode(DEGREES);
   cols = floor(width/w);
   rows = floor(height/w);

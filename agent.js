@@ -190,6 +190,8 @@ Agent.prototype.shootArrow = function(grid){
   if(this.direction == 'up'){ this.arrow.j++; }
   if(this.direction == 'down'){ this.arrow.j--; }
 
+  console.log('Arrow SHOT!');
+
   for (let x=0; x<grid.length; x++) {
     for (let u=0; u<grid[x].percepts.length; u++) {
       if( grid[x].percepts[u].isWumpus ){
@@ -247,7 +249,7 @@ Agent.prototype.checkEnvironment = function(gameWon, gameOver){
       this.grid[l].visited = true;
     }
   }
-  // Show / Hide block if if is VISITED
+  // Show / Hide block if it is VISITED
   for (let l=0; l<grid.length; l++) {
     if(grid[l].i == this.i && grid[l].j == this.j){
       grid[l].visited = true;
